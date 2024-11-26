@@ -2,6 +2,9 @@
 
 Tensor-CUDA Core kernel fusion system for improving the GPU utilization
 
+Paper link:
+* https://doi.org/10.1109/HPCA53966.2022.00064
+* https://doi.org/10.1109/TC.2024.3477995
 ## kernel fusion
 
 The script `fusion/code/gen_run.py` is used to generate fused kernel code from the candidate kernel. Kernel code will be generated in the `fusion/mix_kernel` directory, test code will be stored at `fusion/run` directory.
