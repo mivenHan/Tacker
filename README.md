@@ -67,3 +67,33 @@ run the main code
 ```bash
 ./aker -s aker -m vgg16
 ```
+
+## Citation
+
+If you use Tacker / Aker for your research, please cite our papers:
+
+```txt
+@INPROCEEDINGS{9773253,
+  author={Zhao, Han and Cui, Weihao and Chen, Quan and Zhang, Youtao and Lu, Yanchao and Li, Chao and Leng, Jingwen and Guo, Minyi},
+  booktitle={2022 IEEE International Symposium on High-Performance Computer Architecture (HPCA)}, 
+  title={Tacker: Tensor-CUDA Core Kernel Fusion for Improving the GPU Utilization while Ensuring QoS}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={800-813},
+  keywords={Tensors;Runtime;Graphics processing units;Quality of service;Machine learning;Parallel processing;Throughput;Tensor Core;GPU Utilization;QoS},
+  doi={10.1109/HPCA53966.2022.00064}}
+```
+
+```txt
+@ARTICLE{10713257,
+  author={Zhao, Han and Deng, Junxiao and Cui, Weihao and Chen, Quan and Zhang, Youtao and Zeng, Deze and Guo, Minyi},
+  journal={IEEE Transactions on Computers}, 
+  title={Adaptive Kernel Fusion for Improving the GPU Utilization while Ensuring QoS}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={Kernel;Graphics processing units;Quality of service;Tensors;Processor scheduling;Throughput;Resource management;Computers;Instruction sets;Benchmark testing;Kernel fusion;QoS;GPU scheduling},
+  doi={10.1109/TC.2024.3477995}}
+```
